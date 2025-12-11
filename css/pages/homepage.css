@@ -1,0 +1,47 @@
+/*Suppresion des élements inutiles pour la version mobile*/
+
+.nav-bar {
+  display: none;
+}
+
+.heros-container {
+  p {
+    display: none;
+  }
+}
+
+/* Mise en page du header */
+
+.nav-logo-block {
+  font-weight: 900;
+  font-size: 1.3rem;
+  padding: 1rem;
+}
+
+.header-image-hp {
+  background-image: url(../../assets/images/hero-banner.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 80dvh;
+  background-size: cover;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-blend-mode: overlay;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+header {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+
+  h1 {
+    font-weight: 900;
+    font-size: 2rem;
+    padding: 1rem;
+  }
+}
