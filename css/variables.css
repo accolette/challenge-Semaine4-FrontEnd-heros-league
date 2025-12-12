@@ -1,77 +1,81 @@
 /* Palettes de couleurs */
 :root {
-    --backg-color--dark: black;
-    --primary-color: #9281fe;
-    --lighter-color: white;
+  --backg-color--dark: black;
+  --primary-color: #9281fe;
+  --lighter-color: white;
 }
 
 /* Typo Stasho */
 @font-face {
-    font-family: "Satoshi";
-    src: url("../assets/typos/Satoshi-OTF/Satoshi-Light.otf") format("opentype");
-    font-weight: 200;
-    font-style: normal;
+  font-family: "Satoshi";
+  src: url("../assets/typos/Satoshi-OTF/Satoshi-Light.otf") format("opentype");
+  font-weight: 200;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: "Satoshi";
-    src: url("../assets/typos/Satoshi-OTF/Satoshi-LightItalic.otf") format("opentype");
-    font-weight: 200;
-    font-style: italic;
+  font-family: "Satoshi";
+  src: url("../assets/typos/Satoshi-OTF/Satoshi-LightItalic.otf")
+    format("opentype");
+  font-weight: 200;
+  font-style: italic;
 }
 
 @font-face {
-    font-family: "Satoshi";
-    src: url("../assets/typos/Satoshi-OTF/Satoshi-Regular.otf") format("opentype");
-    font-weight: 400;
-    font-style: normal;
+  font-family: "Satoshi";
+  src: url("../assets/typos/Satoshi-OTF/Satoshi-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: "Satoshi";
-    src: url("../assets/typos/Satoshi-OTF/Satoshi-Italic.otf") format("opentype");
-    font-weight: 400;
-    font-style: italic;
+  font-family: "Satoshi";
+  src: url("../assets/typos/Satoshi-OTF/Satoshi-Italic.otf") format("opentype");
+  font-weight: 400;
+  font-style: italic;
 }
 
 @font-face {
-    font-family: "Satoshi";
-    src: url("../assets/typos/Satoshi-OTF/Satoshi-Medium.otf") format("opentype");
-    font-weight: 500;
-    font-style: normal;
+  font-family: "Satoshi";
+  src: url("../assets/typos/Satoshi-OTF/Satoshi-Medium.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: "Satoshi";
-    src: url("../assets/typos/Satoshi-OTF/Satoshi-MediumItalic.otf") format("opentype");
-    font-weight: 500;
-    font-style: italic;
+  font-family: "Satoshi";
+  src: url("../assets/typos/Satoshi-OTF/Satoshi-MediumItalic.otf")
+    format("opentype");
+  font-weight: 500;
+  font-style: italic;
 }
 
 @font-face {
-    font-family: "Satoshi";
-    src: url("../assets/typos/Satoshi-OTF/Satoshi-Bold.otf") format("opentype");
-    font-weight: 700;
-    font-style: normal;
+  font-family: "Satoshi";
+  src: url("../assets/typos/Satoshi-OTF/Satoshi-Bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: "Satoshi";
-    src: url("../assets/typos/Satoshi-OTF/Satoshi-BoldItalic.otf") format("opentype");
-    font-weight: 700;
-    font-style: italic;
+  font-family: "Satoshi";
+  src: url("../assets/typos/Satoshi-OTF/Satoshi-BoldItalic.otf")
+    format("opentype");
+  font-weight: 700;
+  font-style: italic;
 }
 
 @font-face {
-    font-family: "Satoshi";
-    src: url("../assets/typos/Satoshi-OTF/Satoshi-Black.otf") format("opentype");
-    font-weight: 900;
-    font-style: normal;
+  font-family: "Satoshi";
+  src: url("../assets/typos/Satoshi-OTF/Satoshi-Black.otf") format("opentype");
+  font-weight: 900;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: "Satoshi";
-    src: url("../assets/typos/Satoshi-OTF/Satoshi-BlackItalic.otf") format("opentype");
-    font-weight: 900;
-    font-style: italic;
+  font-family: "Satoshi";
+  src: url("../assets/typos/Satoshi-OTF/Satoshi-BlackItalic.otf")
+    format("opentype");
+  font-weight: 900;
+  font-style: italic;
 }

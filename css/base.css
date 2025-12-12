@@ -1,10 +1,25 @@
 body {
-    background-color: var(--backg-color--dark);
-    color: var(--lighter-color);
-    font-family: "Satoshi", Arial, Helvetica, sans-serif;
-    font-size: 16px;
+  background-color: var(--backg-color--dark);
+  color: var(--lighter-color);
+  font-family: "Satoshi", Arial, Helvetica, sans-serif;
+  font-size: 16px;
 }
 
 textarea {
-    resize: none;
+  resize: none;
+}
+
+em {
+  color: var(--primary-color);
+  font-style: normal;
+}
+
+button {
+  background-color: var(--primary-color);
+  color: var(--lighter-color);
+  border-width: 0px;
+  border-radius: 0.7rem;
+  padding: 0.5rem 1rem;
+  font-weight: 900;
+  font-size: 1.2rem;
 }
