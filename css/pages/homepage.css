@@ -55,7 +55,10 @@ article,
 .heros-container,
 .hero-bg-text,
 .clients-container,
-.clt {
+.clt,
+form,
+footer,
+.nav-btn {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -73,15 +76,10 @@ h2 {
   padding-bottom: 1rem;
 }
 
-button {
-  width: fit-content;
-  border-radius: 1.2rem;
-  padding: 0.5rem 1.5rem;
-}
-
 .services-container {
   padding: 1rem 0rem 3rem 0rem;
   gap: 1rem;
+  max-width: 700px;
 
   article {
     justify-content: space-between;
@@ -115,6 +113,7 @@ button {
 .heros-container {
   padding: 1rem 0rem;
   gap: 1rem;
+  max-width: 700px;
 
   article {
     justify-content: flex-end;
@@ -180,6 +179,8 @@ button {
 
 .clients-container {
   gap: 1rem;
+  padding: 1rem 0rem 3.5rem 0rem;
+  max-width: 700px;
 }
 
 .clt {
@@ -226,4 +227,78 @@ button {
 
 .coup-card {
   background-image: url(../../assets/images/testimony-4.png);
+}
+
+/* Main > Fomulaire */
+
+.help-me-form {
+  gap: 0.5rem;
+  width: 100%;
+  max-width: 700px;
+
+  h2 {
+    padding-bottom: 1rem;
+  }
+  input,
+  select,
+  textarea {
+    margin-bottom: 1rem;
+    background-color: rgba(255, 255, 255, 0.3);
+    border: 0px;
+    border-radius: 1rem;
+    width: 100%;
+    height: 2.5rem;
+    color: var(--lighter-color);
+    text-align: center;
+  }
+
+  select {
+    font-weight: 900;
+  }
+
+  textarea {
+    height: 10rem;
+    padding: 1rem;
+    text-align: left;
+  }
+
+  label {
+    font-weight: 900;
+    font-size: 1.2rem;
+  }
+
+  .submit-form {
+    margin: 1rem 0rem;
+  }
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  outline: solid 2px var(--primary-color);
+}
+
+/* Mise en page du footer */
+footer {
+  margin-top: 1rem;
+  padding: 2rem 0rem;
+  background: #847ecf;
+  background: linear-gradient(
+    201deg,
+    rgba(132, 126, 207, 1) 0%,
+    rgba(162, 155, 254, 1) 100%
+  );
+  border-radius: 26% 29% 0% 0% / 10% 9% 46% 45%;
+
+  li {
+    list-style: none;
+  }
+
+  p {
+    padding-top: 2rem;
+  }
+}
+
+.nav-btn {
+  gap: 1rem;
 }

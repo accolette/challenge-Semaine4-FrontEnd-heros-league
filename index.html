@@ -8,6 +8,11 @@
     <link rel="stylesheet" href="css/variables.css" />
     <link rel="stylesheet" href="css/base.css" />
     <link rel="stylesheet" href="css/pages/homepage.css" />
+    <link
+      rel="shortcut icon"
+      href="./assets/favicon_io/favicon-32x32.png"
+      type="image/x-icon"
+    />
     <meta
       name="description"
       content="Heros League : Des gens un peu spéciaux, qui vous propose leurs services pour résoudre des problèmes pas tout à fait normaux"
@@ -230,9 +235,19 @@
       <h2>Sauvez-moi !</h2>
       <form class="help-me-form" action="" method="post">
         <label for="help-name">Nom</label>
-        <input id="help-name" type="text" name="nom" />
+        <input
+          id="help-name"
+          type="text"
+          name="nom"
+          placeholder="ex: Bruce Wayne"
+        />
         <label for="help-email">Email</label>
-        <input id="help-email" type="email" name="email" />
+        <input
+          id="help-email"
+          type="email"
+          name="email"
+          placeholder="ex: bruceeeBG@caramail.fr"
+        />
         <label for="help-type-service">Service</label>
         <select id="help-type-service" name="service">
           <option value="demenagement">Super Déménagement</option>
@@ -242,7 +257,11 @@
           <option value="moral">Moral à Z'héro</option>
         </select>
         <label for="help-message">Message</label>
-        <textarea id="help-message" name="message"> </textarea>
+        <textarea
+          id="help-message"
+          name="message"
+          placeholder="Dites nous ici tout ce qui pourra nous aider à vous aider !"
+        ></textarea>
         <button class="submit-form">Envoyer</button>
       </form>
     </main>
