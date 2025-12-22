@@ -1,4 +1,8 @@
-/*Suppresion des élements inutiles pour la version mobile*/
+/*
+#############################################
+Removing elements for mobile version
+#############################################
+*/
 
 .nav-bar {
   display: none;
@@ -10,7 +14,13 @@
   }
 }
 
-/* Mise en page du header */
+/*
+#############################################
+Responsive : Mobile first version
+#############################################
+*/
+
+/* Header part */
 
 .nav-logo-block {
   font-weight: 900;
@@ -19,10 +29,10 @@
 }
 
 .header-image-hp {
-  background-image: url(../../assets/images/hero-banner.png);
+  background-image: url(../../assets/images/tab-version/hero-tab.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  height: 80dvh;
+  height: 80vh;
   background-size: cover;
   border-radius: 1rem;
   display: flex;
@@ -39,16 +49,16 @@ header {
   flex-direction: column;
   justify-content: center;
   text-align: center;
-
-  h1 {
-    font-weight: 900;
-    font-size: 2rem;
-    padding: 1rem;
-  }
 }
 
-/* Mise en page du main */
-/* Application de flexbox commune */
+h1 {
+  font-weight: 900;
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+/* Main part */
+/* Flexbox in common */
 main,
 .services-container,
 article,
@@ -64,7 +74,7 @@ footer,
   align-items: center;
 }
 
-/* Main > Partie services */
+/* Main > Services part */
 main {
   padding: 1rem;
   text-align: center;
@@ -109,7 +119,7 @@ h2 {
   border: solid 0.5px var(--primary-color);
 }
 
-/* Main > Partie Heros */
+/* Main > Heros part */
 .heros-container {
   padding: 1rem 0rem;
   gap: 1rem;
@@ -129,26 +139,26 @@ h2 {
   }
 
   .cat-card {
-    background-image: url(../../assets/images/catastrophic.png);
+    background-image: url(../../assets/images/mobile-version/catastrophic-mob.jpg);
   }
 
   .carotte-card {
-    background-image: url(../../assets/images/carotte-woman.png);
+    background-image: url(../../assets/images/mobile-version/carotte-woman-mob.jpg);
   }
 
   .ultra-card {
-    background-image: url(../../assets/images/ultraquenarde.png);
+    background-image: url(../../assets/images/mobile-version/ultraquenarde-mob.jpg);
   }
 
   .poulpy-card {
-    background-image: url(../../assets/images/poulpy.png);
+    background-image: url(../../assets/images/mobile-version/poulpy-mob.jpg);
   }
 
   .orang-card {
-    background-image: url(../../assets/images/oran-wu-tang-clan.png);
+    background-image: url(../../assets/images/mobile-version/oran-wu-tang-clan-mob.jpg);
   }
   .superime-card {
-    background-image: url(../../assets/images/superime.png);
+    background-image: url(../../assets/images/mobile-version/superime-mob.jpg);
   }
 
   h3 {
@@ -158,6 +168,7 @@ h2 {
 
   h4 {
     font-weight: 400;
+    padding: 0.5rem;
   }
 }
 
@@ -167,6 +178,7 @@ h2 {
   border-radius: 1rem;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .all-heros-cards {
@@ -175,7 +187,7 @@ h2 {
   font-size: 0.9rem;
 }
 
-/* Main > Temoignages clients */
+/* Main > Clients testimony part */
 
 .clients-container {
   gap: 1rem;
@@ -211,25 +223,26 @@ h2 {
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   border-radius: 1rem 1rem 15rem 15rem;
 }
 .tomb-card {
-  background-image: url(../../assets/images/testimony-1.png);
+  background-image: url(../../assets/images/mobile-version/testimony-1-mob.jpg);
 }
 
 .jella-card {
-  background-image: url(../../assets/images/testimony-2.png);
+  background-image: url(../../assets/images/mobile-version/testimony-2-mob.jpg);
 }
 
 .bob-card {
-  background-image: url(../../assets/images/testimony-3.png);
+  background-image: url(../../assets/images/mobile-version/testimony-3-mob.jpg);
 }
 
 .coup-card {
-  background-image: url(../../assets/images/testimony-4.png);
+  background-image: url(../../assets/images/mobile-version/testimony-4-mob.jpg);
 }
 
-/* Main > Fomulaire */
+/* Main > Form part */
 
 .help-me-form {
   gap: 0.5rem;
@@ -249,6 +262,10 @@ h2 {
     width: 100%;
     height: 2.5rem;
     color: var(--lighter-color);
+    text-align: center;
+  }
+
+  #help-type-service {
     text-align: center;
   }
 
@@ -278,7 +295,7 @@ textarea:focus {
   outline: solid 2px var(--primary-color);
 }
 
-/* Mise en page du footer */
+/* Footer part */
 footer {
   margin-top: 1rem;
   padding: 2rem 0rem;
@@ -296,9 +313,181 @@ footer {
 
   p {
     padding-top: 2rem;
+    text-align: center;
   }
 }
 
 .nav-btn {
   gap: 1rem;
 }
+
+/*
+#############################################
+Responsive : Tab version
+#############################################
+*/
+
+@media screen and (min-width: 768px) {
+  /* HEADER part */
+  .nav-bar {
+    display: block;
+    li {
+      list-style: none;
+    }
+  }
+
+  .nav-logo-block {
+    padding: 0.5rem 1rem;
+  }
+
+  .nav-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+    font-weight: 700;
+  }
+
+  .header-image-hp {
+    margin: 1rem;
+    background-image: url(../../assets/images/desktop-version/hero-desk.jpg);
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+  p {
+    font-size: 1rem;
+  }
+
+  /* MAIN part */
+  main {
+    padding: 0rem;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+    position: relative;
+    margin: 1rem;
+  }
+
+  h2::before,
+  h2::after {
+    content: "";
+    background-color: var(--primary-color);
+    height: 2px;
+    width: 1.5rem;
+    position: absolute;
+    top: 1.5rem;
+  }
+
+  h2::before {
+    left: -40px;
+  }
+
+  h2::after {
+    right: -40px;
+  }
+
+  .services-container,
+  .heros-container,
+  .clients-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    align-items: stretch;
+    padding: 0.5rem;
+    max-width: 93%;
+    margin-bottom: 2rem;
+  }
+
+  /* Heors cards*/
+  .moral-card {
+    grid-column: 1 / 3;
+    grid-row: 3 / 4;
+  }
+
+  .heros-container {
+    padding: 0rem;
+  }
+
+  .all-heros-cards {
+    grid-column: span 2;
+    justify-self: center;
+    margin: 1rem;
+  }
+
+  .cat-card {
+    background-image: url(../../assets/images//tab-version/catastrophic-tab.jpg);
+  }
+
+  .carotte-card {
+    background-image: url(../../assets/images/tab-version/carotte-woman-tab.jpg);
+  }
+
+  .ultra-card {
+    background-image: url(../../assets/images/tab-version/ultraquenarde-tab.jpg);
+  }
+
+  .poulpy-card {
+    background-image: url(../../assets/images/tab-version/poulpy-tab.jpg);
+  }
+
+  .orang-card {
+    background-image: url(../../assets/images/tab-version/oran-wu-tang-clan-tab.jpg);
+  }
+  .superime-card {
+    background-image: url(../../assets/images/tab-version/superime-tab.jpg);
+  }
+
+  /* Client Testimony  */
+
+  .clt {
+    border-radius: 70rem 70rem 2rem 2rem;
+  }
+
+  .clt-image {
+    border-radius: 70rem;
+  }
+  .tomb-card {
+    background-image: url(../../assets/images/tab-version/testimony-1-desk.jpg);
+  }
+
+  .jella-card {
+    background-image: url(../../assets/images/tab-version/testimony-2-desk.jpg);
+  }
+
+  .bob-card {
+    background-image: url(../../assets/images/tab-version/testimony-3-tab.jpg);
+  }
+
+  .coup-card {
+    background-image: url(../../assets/images/tab-version/testimony-4-tab.jpg);
+  }
+
+  /* FOOTER */
+  footer {
+    margin-top: 3rem;
+
+    h2::before,
+    h2::after {
+      content: none;
+    }
+
+    .nav-btn {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      font-weight: 400;
+      gap: 2rem;
+    }
+  }
+}
+/*
+#############################################
+Responsive : Desktop version
+#############################################
+*/
+
+/*@media screen and (min-width: 1024px) {
+}*/

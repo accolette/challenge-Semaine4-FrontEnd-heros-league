@@ -1,4 +1,4 @@
-body {
+html {
   background-color: var(--backg-color--dark);
   color: var(--lighter-color);
   font-family: "Satoshi", Arial, Helvetica, sans-serif;
