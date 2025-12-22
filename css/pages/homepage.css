@@ -394,8 +394,8 @@ Responsive : Tab version
   .clients-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: auto;
     align-items: stretch;
+    justify-items: flex-end;
     padding: 0.5rem;
     max-width: 93%;
     margin-bottom: 2rem;
@@ -489,5 +489,126 @@ Responsive : Desktop version
 #############################################
 */
 
-/*@media screen and (min-width: 1024px) {
-}*/
+@media screen and (min-width: 1024px) {
+  /* NAV BAR */
+  header {
+    padding: 2rem;
+  }
+
+  .nav-logo-block {
+    padding: 0rem;
+  }
+
+  .header-navigation {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0;
+    padding: 1rem 3rem;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+
+  .header-image-hp {
+    margin-top: 4rem;
+  }
+
+  /* Services part */
+  h2 {
+    margin: 4rem 0rem;
+  }
+
+  .services-container {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 15rem);
+    max-width: inherit;
+    justify-items: stretch;
+    padding: 3rem;
+
+    article {
+      height: 100%;
+    }
+  }
+
+  article.moving-card,
+  article.party-card {
+    padding: 4rem 0rem;
+    justify-content: space-evenly;
+  }
+
+  .moving-card {
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+  }
+
+  .delivery-card {
+    grid-column: 2 / 4;
+    grid-row: 1 / 2;
+  }
+
+  .traffic-card {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+  }
+
+  .moral-card {
+    grid-column: 1 / 3;
+    grid-row: 3 / 4;
+  }
+
+  .party-card {
+    grid-column: 3 / 4;
+    grid-row: 2 / 4;
+  }
+
+  /* Heros part */
+  .heros-container {
+    grid-template-columns: repeat(3, 1fr);
+
+    .hero-bg-text {
+      height: 35%;
+      padding: 0.2rem;
+      gap: 0;
+      justify-content: center;
+    }
+
+    h3,
+    h4 {
+      padding: 0;
+    }
+
+    .hero {
+      height: 18rem;
+    }
+  }
+
+  .all-heros-cards {
+    grid-column: span 3;
+    justify-self: center;
+    margin: 1rem;
+  }
+
+  .cat-card {
+    background-image: url(../../assets/images//desktop-version/catastrophic-desk.jpg);
+  }
+
+  .carotte-card {
+    background-image: url(../../assets/images/desktop-version/carotte-woman-desk.jpg);
+  }
+
+  .ultra-card {
+    background-image: url(../../assets/images/desktop-version/ultraquenarde-desk.jpg);
+  }
+
+  .poulpy-card {
+    background-image: url(../../assets/images/desktop-version/poulpy-desk.jpg);
+  }
+
+  .orang-card {
+    background-image: url(../../assets/images/desktop-version/oran-wu-tang-clan-desk.jpg);
+  }
+  .superime-card {
+    background-image: url(../../assets/images/desktop-version/superime-desk.jpg);
+  }
+}
