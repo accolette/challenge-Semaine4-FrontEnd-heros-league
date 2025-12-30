@@ -443,12 +443,18 @@ Responsive : Tab version
   /* Client Testimony  */
 
   .clt {
-    border-radius: 70rem 70rem 2rem 2rem;
+    border-radius: 70rem 70rem 7rem 7rem;
+    justify-content: center;
+
+    .clt-image {
+      border-radius: 70rem;
+      height: 25rem;
+    }
+    p {
+      height: 30%;
+    }
   }
 
-  .clt-image {
-    border-radius: 70rem;
-  }
   .tomb-card {
     background-image: url(../../assets/images/tab-version/testimony-1-desk.jpg);
   }
@@ -495,6 +501,11 @@ Responsive : Desktop version
     padding: 2rem;
   }
 
+  .nav-btn-item:hover {
+    color: var(--primary-color);
+    cursor: pointer;
+  }
+
   .nav-logo-block {
     padding: 0rem;
   }
@@ -508,6 +519,7 @@ Responsive : Desktop version
     left: 0;
     padding: 1rem 3rem;
     background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1;
   }
 
   .header-image-hp {
@@ -580,6 +592,14 @@ Responsive : Desktop version
 
     .hero {
       height: 18rem;
+      &:hover {
+        p {
+          display: block;
+          background-color: rgba(162, 155, 254, 0.7);
+          color: var(--lighter-color);
+          font-style: italic;
+        }
+      }
     }
   }
 
@@ -610,5 +630,50 @@ Responsive : Desktop version
   }
   .superime-card {
     background-image: url(../../assets/images/desktop-version/superime-desk.jpg);
+  }
+
+  /* Client Testimony  */
+
+  .clients-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .clt {
+    border-radius: 70rem 70rem 10rem 10rem;
+    width: 20%;
+    height: 37rem;
+    justify-content: center;
+  }
+
+  .tomb-card {
+    background-image: url(../../assets/images/desktop-version/testimony-1-desk.jpg);
+  }
+
+  .jella-card {
+    background-image: url(../../assets/images/desktop-version/testimony-2-desk.jpg);
+  }
+
+  .bob-card {
+    background-image: url(../../assets/images/desktop-version/testimony-3-desk.jpg);
+  }
+
+  .coup-card {
+    background-image: url(../../assets/images/desktop-version/testimony-4-desk.jpg);
+  }
+
+  /* FOOTER */
+  footer {
+    padding: 3rem;
+    margin: 0;
+
+    h2 {
+      margin: 0;
+    }
+    p {
+      margin-top: 2rem;
+    }
   }
 }
