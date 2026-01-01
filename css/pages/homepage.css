@@ -131,7 +131,7 @@ h2 {
   }
 
   .hero-bg-text {
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.5);
     height: 50%;
     width: 100%;
     border-radius: 0rem 0rem 1rem 1rem;
@@ -200,12 +200,12 @@ h2 {
   justify-content: space-between;
   border-radius: 1rem;
 
-  h4,
+  h3,
   p {
     padding: 1rem;
   }
 
-  h4 {
+  h3 {
     padding-top: 2rem;
     padding-bottom: 0rem;
     font-weight: 900;
@@ -527,6 +527,12 @@ Responsive : Desktop version
   }
 
   /* Services part */
+
+  button:hover {
+    cursor: pointer;
+    opacity: 0.9;
+  }
+
   h2 {
     margin: 4rem 0rem;
   }
@@ -592,12 +598,23 @@ Responsive : Desktop version
 
     .hero {
       height: 18rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      p {
+        display: block;
+        opacity: 0;
+      }
       &:hover {
         p {
-          display: block;
-          background-color: rgba(162, 155, 254, 0.7);
+          opacity: 1;
+          background-color: rgba(162, 155, 254, 0.8);
           color: var(--lighter-color);
           font-style: italic;
+          padding: 1rem;
+          border-radius: 1rem 1rem 0rem 0rem;
+          width: 100%;
         }
       }
     }
@@ -674,6 +691,10 @@ Responsive : Desktop version
     }
     p {
       margin-top: 2rem;
+    }
+    .nav-btn-item:hover {
+      color: var(--lighter-color);
+      text-decoration: underline;
     }
   }
 }

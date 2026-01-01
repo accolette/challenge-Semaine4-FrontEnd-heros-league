@@ -2,18 +2,19 @@
 
 A class challenge to test HTML and CSS skills
 
+_Réalisé en mobile first, sans framework ni outils d’IA à toutes les étapes de la mise en place. Copilot a été utilisé uniquement à la fin, pour les tests finaux et d’accessibilité._  
+
 Ce challenge se base sur Heros League™, une société de mise à disposition de super-héros pour des situations d'urgence en tout genre.  
 L'objectif ? Créer un site web qui permettra de présenter leurs différents services et de pouvoir lancer un appel à l'aide.  
 Pour la 1er étape il s'agit de réaliser une page d'accueil, mais de nouvelles fonctionnalités arriveront ensuite. 
  
-_Réalisé en mobile first et sans outils d’IA à toutes les étapes de mise en place. Leur usage n’a été fait qu’à la toute fin, pour les tests finaux et d’accessibilité._
 
 ------
+_Built mobile-first, without any framework or AI tools throughout the development process. Copilot was used only at the very end, for final testing and accessibility checks._  
+
 This challenge is based on Heros League™, a company that provides superheroes for all kinds of emergency situations.  
 The goal? To create a website that presents their different services and allows users to call for help.  
 For the first step, the task is only to build a homepage — but new features will be added later.  
-
-_Created with a mobile first approach and without AI tools at any stage of the setup. They were only used at the very end, for final and accessibility testing._
 
 ------
 ### V1 Tech Stack

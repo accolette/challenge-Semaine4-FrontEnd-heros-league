@@ -15,7 +15,7 @@ em {
 }
 
 button {
-  background-color: var(--primary-color);
+  background-color: var(--secondary-color);
   color: var(--lighter-color);
   border-width: 0px;
   border-radius: 1.2rem;
