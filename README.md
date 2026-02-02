@@ -3,7 +3,7 @@
 Front-end integration challenge – HTML & CSS
 
 ## 🚀 Live Demo
-👉 https://accolette.github.io/challenge-FrontEnd-heros-league/
+👉 [https://accolette.github.io/challenge-FrontEnd-heros-league/](https://accolette.github.io/challenge-FrontEnd-heros-league/)
 
 ---
 
@@ -46,7 +46,6 @@ Additional features will be added in future iterations.
 - HTML5  
 - CSS3  
 - Mobile-first layout  
-- Vanilla front-end (no framework)
 
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)  
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
@@ -59,13 +58,12 @@ Additional features will be added in future iterations.
 - Building a responsive layout using a **mobile-first approach**
 - Organising CSS for readability and maintainability
 - Paying attention to accessibility basics (contrast, navigation, structure)
-- Translating a functional brief into a clean UI without relying on frameworks
 
 ---
 
 ## 🔮 Next steps
 
 - Add new pages and features
-- Improve interactions and animations
+- Add interactions and animations
 - Enhance accessibility and performance
 - Prepare the project for a more scalable front-end architecture
