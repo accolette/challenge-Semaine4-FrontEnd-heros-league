@@ -403,7 +403,7 @@ Responsive : Tab version
     margin-bottom: 2rem;
   }
 
-  /* Heors cards*/
+  /* Heros cards*/
   .moral-card {
     grid-column: 1 / 3;
     grid-row: 3 / 4;
@@ -442,7 +442,7 @@ Responsive : Tab version
     background-image: url(../../assets/images/tab-version/superime-tab.jpg);
   }
 
-  /* Client Testimony  */
+  /* Clients Testimony  */
 
   .clt {
     border-radius: 70rem 70rem 7rem 7rem;

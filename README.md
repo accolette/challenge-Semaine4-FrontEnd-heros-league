@@ -10,7 +10,8 @@ Front-end integration challenge – HTML & CSS
 ## 🧩 Project overview
 
 _Réalisé en mobile first, sans framework ni outils d’IA tout au long du développement.  
-Copilot a été utilisé uniquement à la fin pour les tests finaux et les vérifications d’accessibilité._
+Copilot a été utilisé uniquement à la fin pour les tests finaux et les vérifications d’accessibilité.  
+Lors de la semaine 4/36 de la formation._
 
 Ce projet s’appuie sur **Heros League™**, une société fictive proposant des super-héros pour intervenir lors de situations d’urgence.
 
@@ -27,7 +28,8 @@ Le projet est conçu pour évoluer avec de nouvelles fonctionnalités par la sui
 ## 🧩 Project overview (EN)
 
 _Built mobile-first, without any framework or AI tools throughout the development process.  
-Copilot was used only at the very end, for final testing and accessibility checks._
+Copilot was used only at the very end, for final testing and accessibility checks.  
+During week 4 of the 36-week training program.._
 
 This project is based on **Heros League™**, a fictional company providing superheroes for all kinds of emergency situations.
 
